@@ -11,6 +11,7 @@
 		3753C2922584D46500D5E999 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3753C2912584D46500D5E999 /* ContentView.swift */; };
 		3753C2942584D46E00D5E999 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3753C2932584D46E00D5E999 /* Assets.xcassets */; };
 		3753C2972584D46E00D5E999 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3753C2962584D46E00D5E999 /* Preview Assets.xcassets */; };
+		3753C2A12584FB6300D5E999 /* ImagePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3753C2A02584FB6300D5E999 /* ImagePicker.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +21,7 @@
 		3753C2932584D46E00D5E999 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3753C2962584D46E00D5E999 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		3753C2982584D46E00D5E999 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3753C2A02584FB6300D5E999 /* ImagePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePicker.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +56,7 @@
 			children = (
 				3753C28F2584D46500D5E999 /* CameraAppApp.swift */,
 				3753C2912584D46500D5E999 /* ContentView.swift */,
+				3753C2A02584FB6300D5E999 /* ImagePicker.swift */,
 				3753C28D2584D46500D5E999 /* Products */,
 				3753C2932584D46E00D5E999 /* Assets.xcassets */,
 				3753C2982584D46E00D5E999 /* Info.plist */,
@@ -139,6 +142,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3753C2A12584FB6300D5E999 /* ImagePicker.swift in Sources */,
 				3753C2922584D46500D5E999 /* ContentView.swift in Sources */,
 				3753C2902584D46500D5E999 /* CameraAppApp.swift in Sources */,
 			);
