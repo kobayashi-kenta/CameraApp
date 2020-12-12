@@ -37,7 +37,6 @@
 			isa = PBXGroup;
 			children = (
 				3753C28E2584D46500D5E999 /* CameraApp */,
-				3753C28D2584D46500D5E999 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
@@ -47,6 +46,7 @@
 				3753C28C2584D46500D5E999 /* CameraApp.app */,
 			);
 			name = Products;
+			path = ..;
 			sourceTree = "<group>";
 		};
 		3753C28E2584D46500D5E999 /* CameraApp */ = {
@@ -54,6 +54,7 @@
 			children = (
 				3753C28F2584D46500D5E999 /* CameraAppApp.swift */,
 				3753C2912584D46500D5E999 /* ContentView.swift */,
+				3753C28D2584D46500D5E999 /* Products */,
 				3753C2932584D46E00D5E999 /* Assets.xcassets */,
 				3753C2982584D46E00D5E999 /* Info.plist */,
 				3753C2952584D46E00D5E999 /* Preview Content */,
