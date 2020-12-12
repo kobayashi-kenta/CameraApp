@@ -9,9 +9,19 @@ import SwiftUI
 
 struct ImagePicker: UIViewControllerRepresentable {
     
+    @Binding var image:Image?
+    @Binding var isPicking:Bool
+    
+    
+    
+    func makeCoordinator() -> Coordinator {
+        Coordinator(self)
+    }
+    
     func makeUIViewController(context: Context) ->  UIImagePickerController {
         let picker = UIImagePickerController()
-        picker.sourceType = .photoLibrary
+        picker.sourceType = .camera
+        picker.delegate = context.coordinator
         return picker
     }
     
@@ -21,6 +31,6 @@ struct ImagePicker: UIViewControllerRepresentable {
 
 struct ImagePicker_Previews: PreviewProvider {
     static var previews: some View {
-        ImagePicker()
+        ImagePicker(image: .constant(nil), isPicking: .constant(true))
     }
 }

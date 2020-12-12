@@ -7,14 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3729FBBE25851007004C5A48 /* UIImageExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3729FBBD25851007004C5A48 /* UIImageExtensions.swift */; };
 		3753C2902584D46500D5E999 /* CameraAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3753C28F2584D46500D5E999 /* CameraAppApp.swift */; };
 		3753C2922584D46500D5E999 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3753C2912584D46500D5E999 /* ContentView.swift */; };
 		3753C2942584D46E00D5E999 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3753C2932584D46E00D5E999 /* Assets.xcassets */; };
 		3753C2972584D46E00D5E999 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3753C2962584D46E00D5E999 /* Preview Assets.xcassets */; };
 		3753C2A12584FB6300D5E999 /* ImagePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3753C2A02584FB6300D5E999 /* ImagePicker.swift */; };
+		3753C2A82584FF4800D5E999 /* Coodinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3753C2A72584FF4800D5E999 /* Coodinator.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3729FBBD25851007004C5A48 /* UIImageExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIImageExtensions.swift; sourceTree = "<group>"; };
 		3753C28C2584D46500D5E999 /* CameraApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CameraApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3753C28F2584D46500D5E999 /* CameraAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraAppApp.swift; sourceTree = "<group>"; };
 		3753C2912584D46500D5E999 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -22,6 +25,7 @@
 		3753C2962584D46E00D5E999 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		3753C2982584D46E00D5E999 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3753C2A02584FB6300D5E999 /* ImagePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePicker.swift; sourceTree = "<group>"; };
+		3753C2A72584FF4800D5E999 /* Coodinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coodinator.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +60,8 @@
 			children = (
 				3753C28F2584D46500D5E999 /* CameraAppApp.swift */,
 				3753C2912584D46500D5E999 /* ContentView.swift */,
+				3729FBBD25851007004C5A48 /* UIImageExtensions.swift */,
+				3753C2A72584FF4800D5E999 /* Coodinator.swift */,
 				3753C2A02584FB6300D5E999 /* ImagePicker.swift */,
 				3753C28D2584D46500D5E999 /* Products */,
 				3753C2932584D46E00D5E999 /* Assets.xcassets */,
@@ -143,6 +149,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				3753C2A12584FB6300D5E999 /* ImagePicker.swift in Sources */,
+				3753C2A82584FF4800D5E999 /* Coodinator.swift in Sources */,
+				3729FBBE25851007004C5A48 /* UIImageExtensions.swift in Sources */,
 				3753C2922584D46500D5E999 /* ContentView.swift in Sources */,
 				3753C2902584D46500D5E999 /* CameraAppApp.swift in Sources */,
 			);
@@ -282,7 +290,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "----.CameraApp";
+				PRODUCT_BUNDLE_IDENTIFIER = "----.CameraApp2020-12-10";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -304,7 +312,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "----.CameraApp";
+				PRODUCT_BUNDLE_IDENTIFIER = "----.CameraApp2020-12-10";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
