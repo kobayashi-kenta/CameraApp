@@ -1,0 +1,17 @@
+//
+//  CameraAppApp.swift
+//  CameraApp
+//
+//  Created by Kenta on 2020/12/12.
+//
+
+import SwiftUI
+
+@main
+struct CameraAppApp: App {
+    var body: some Scene {
+        WindowGroup {
+            ContentView()
+        }
+    }
+}
