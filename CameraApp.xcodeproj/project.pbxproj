@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		3729FBBE25851007004C5A48 /* UIImageExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3729FBBD25851007004C5A48 /* UIImageExtensions.swift */; };
+		3729FBC125858A14004C5A48 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3729FBC025858A14004C5A48 /* Launch Screen.storyboard */; };
 		3753C2902584D46500D5E999 /* CameraAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3753C28F2584D46500D5E999 /* CameraAppApp.swift */; };
 		3753C2922584D46500D5E999 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3753C2912584D46500D5E999 /* ContentView.swift */; };
 		3753C2942584D46E00D5E999 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3753C2932584D46E00D5E999 /* Assets.xcassets */; };
@@ -18,6 +19,7 @@
 
 /* Begin PBXFileReference section */
 		3729FBBD25851007004C5A48 /* UIImageExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIImageExtensions.swift; sourceTree = "<group>"; };
+		3729FBC025858A14004C5A48 /* Launch Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
 		3753C28C2584D46500D5E999 /* CameraApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CameraApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3753C28F2584D46500D5E999 /* CameraAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraAppApp.swift; sourceTree = "<group>"; };
 		3753C2912584D46500D5E999 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -61,6 +63,7 @@
 				3753C28F2584D46500D5E999 /* CameraAppApp.swift */,
 				3753C2912584D46500D5E999 /* ContentView.swift */,
 				3729FBBD25851007004C5A48 /* UIImageExtensions.swift */,
+				3729FBC025858A14004C5A48 /* Launch Screen.storyboard */,
 				3753C2A72584FF4800D5E999 /* Coodinator.swift */,
 				3753C2A02584FB6300D5E999 /* ImagePicker.swift */,
 				3753C28D2584D46500D5E999 /* Products */,
@@ -136,6 +139,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3729FBC125858A14004C5A48 /* Launch Screen.storyboard in Resources */,
 				3753C2972584D46E00D5E999 /* Preview Assets.xcassets in Resources */,
 				3753C2942584D46E00D5E999 /* Assets.xcassets in Resources */,
 			);
